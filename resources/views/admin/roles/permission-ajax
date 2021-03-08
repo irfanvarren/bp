@@ -1,0 +1,5 @@
+{{dd($permissions)}}
+@foreach($permissions as $permission)
+{{dd($permission)}}
+
+@endforeach

@@ -1,0 +1,32 @@
+BE	BALPOIN E-DUCATE	LK	BE/	OPTIONAL			ADMIN			2020-03-11 14:45:34	0000-00-00 00:00:00	
+BEP	Best English Programme	BU1	BEP	Pembayaran 2 Kali		ENG	ADMIN	ADMIN		2019-08-09 10:54:00	2020-03-26 15:21:24	
+BEPX	Best English Program Express	BU1	BEP.SC	Masing-masing dikurangi 2 meeting intuk pretest &posttest 1 pertemuan (1,5 jam)	Pembayaran bisa dilakukan 2 tahap (per 10 meeting)	ENG	ADMIN	ADMIN		2020-01-10 08:27:22	2020-03-26 15:22:01	LG
+EFA	BEP (Best English Programme)	BU1	BEP	Pembayaran bisa dilakukan 2 tahap (per 10 meeting)	Masing - masing dikurangi 2 meeting untuk Pretest dan Posttest. 1 pertemuan - 1 jam 30 menit	ENG	ADMIN	ADMIN		2019-12-16 10:22:26	2020-03-26 15:22:35	LG
+GD	GRAPHIC DESIGN	LK	GD	Pertemuan akan dianggap hangus jika murid tidak hadir di kelas tanpa pemberitahuan dan alasan yang jelas	pembayaran di lakukan per 1 paket (16 pertemuan)		ADMIN			2020-03-11 09:19:30	0000-00-00 00:00:00	CSWC
+HG	Bahasa Korea	BU1	HG	Pembayaran Bisa dilakukan 2 tahap (per 10 Meeting) dan jika peserta batal mengikuti test, maka tidak ada pengembalian biaya	Masing-masing dikurangi 2 meeting untuk Pretest dan Posttest (Simulation Test)	KOREAN	ADMIN	ADMIN		2019-11-06 17:08:33	2019-12-20 15:59:09	LG
+HY	Hanyu	BU1	HY	Pembayaran Bisa dilakukan 2 tahap (per 10 Meeting) dan jika peserta batal mengikuti test, maka tidak ada pengembalian biaya	Masing-masing dikurangi 2 meeting untuk Pretest dan Posttest (Simulation Test)	MANDARIN	ADMIN	ADMIN		2019-08-09 12:51:28	2019-12-20 16:18:32	LG
+IC	Intensive Class	BU1	IC	Pembayaran 2 Kali			ADMIN	ADMIN		2019-08-09 10:52:55	2019-11-12 15:06:06	
+IELTS	IELTS Official Test + IELTS Simulation Test	BU3	IALF	JIka batal mengikuti test maka biaya tidak dikembalikan			ADMIN	ADMIN		2019-08-09 14:38:28	2019-11-12 16:30:24	
+IELTSC	IELTS Class	BU1	IELTSC	Pembayaran Bisa dilakukan 2 tahap (per 10 Meeting) dan jika peserta batal mengikuti test, maka tidak ada pengembalian biaya	Masing-masing dikurangi 2 meeting untuk Pretest dan Posttest (Simulation Test)	ENGLISH	ADMIN	ADMIN		2019-12-16 12:26:27	2019-12-20 15:44:10	LG
+IOT	IELTS Official	BU2	-	Tidak ada pengembalian biaya yang sudah dibayarkan jika peserta melakukan pembatalan test		ENGLISH	ADMIN	ADMIN		2019-12-16 12:42:18	2019-12-20 15:47:48	IELTS
+KCE	KEY CHAIN E-DUCATE	LK	KCE/	OPTIONAL			ADMIN			2020-03-11 14:46:36	0000-00-00 00:00:00	
+MP	MOBILE PROGAMMING	LK	MP	Pertemuan akan dianggap hangus jika murid tidak hadir di kelas tanpa pemberitahuan dan alasan yang jelas	pembayaran di lakukan per 1 paket (16 pertemuan)		ADMIN			2020-03-11 09:20:10	0000-00-00 00:00:00	CSWC
+NE	NOTE E-DUCATE	LK	NE/	OPTIONAL			ADMIN			2020-03-11 14:49:00	0000-00-00 00:00:00	CSWC
+PIELTS	IELTS Class + IELTS Official Test + Simulation test	BU7	IC.IST-R	-			ADMIN	ADMIN		2019-09-13 11:35:33	2019-11-12 16:30:58	
+PSITP1	TOEFL ITP Class + TOEFL ITP Official Test + Simulation Test	BU8	LITP.R	Masing - masing dikurangi 2 meeting untuk Pretest & Posttest (Pembayaran 2 Tahap)			ADMIN	ADMIN		2019-08-09 13:29:20	2019-11-12 16:31:12	
+PSITP2	TOEFL ITP Official Test + TOEFL ITP Simulation Test	BU3	ITP	-			ADMIN	ADMIN		2019-08-09 14:05:25	2019-11-12 16:30:11	
+RC	Regular Class	BU1	RC	Pembayaran 2 Kali			ADMIN	ADMIN		2019-08-09 10:52:11	2019-11-12 15:06:44	
+RK	ROBOTICS KIT	LK	RSK/	wajib untuk robotic , harus di beli di awal	wajib untuk robotic , bisa dibeli saat dibutuhkan		ADMIN			2020-03-11 14:14:21	0000-00-00 00:00:00	CSWC
+RMK	ROBOTIC MEDIUM KIT	LK	RMK/	wajib untuk robotic , harus beli di awal	wajib untuk robotic , bisa di beli saat di butuhkan		ADMIN			2020-03-11 14:43:12	0000-00-00 00:00:00	CSWC
+RP	ROBOTIC PROGAMMING	LK	RP	Pertemuan akan dianggap hangus jika murid tidak hadir di kelas tanpa pemberitahuan dan alasan yang jelas	pembayaran di lakukan per 1 paket (16 pertemuan)		ADMIN			2020-03-11 09:20:53	0000-00-00 00:00:00	CSWC
+SIELTS	IELTS Simulation Test	BU1	SIELTS	Tidak ada pengembalian biaya yang sudah dibayarkan jika peserta melakukan pembatalan test		ENGLISH	ADMIN	ADMIN		2019-08-09 14:35:40	2019-12-20 15:51:31	IELTS
+SITP	TOEFL Simulation Test	BU4	SITP	Tidak ada pengembalian biaya yang sudah dibayarkan jika peserta melakukan pembatalan test		ENGLISH	ADMIN	ADMIN		2019-08-09 13:21:59	2019-12-20 15:54:40	TOEFL
+TC	Teen Class	BU1	TC	Pembayaran Bisa dilakukan 2 tahap (per 10 Meeting) dan jika peserta batal mengikuti test, maka tidak ada pengembalian biaya	Masing-masing dikurangi 2 meeting untuk Pretest dan Posttest (Simulation Test)	ENGLISH	ADMIN	ADMIN		2019-08-09 10:50:57	2019-12-20 15:53:00	LG
+TE	TSHIRT E-DUCATE	LK	TE/	OPTIONAL			ADMIN			2020-03-11 14:49:34	0000-00-00 00:00:00	CSWC
+TL.DOC	Translate Dokumen	TL	TL				ADMIN			2020-03-12 09:15:44	0000-00-00 00:00:00	LG
+TOEFLC	TOEFL Class	BU1	ITPC	Pembayaran Bisa dilakukan 2 tahap (per 10 Meeting) dan jika peserta batal mengikuti test, maka tidak ada pengembalian biaya	Masing-masing dikurangi 2 meeting untuk Pretest dan Posttest (Simulation Test)	ENGLISH	ADMIN	ADMIN		2019-12-16 12:29:40	2019-12-20 15:53:24	TOEFL
+TOT	TOEFL Official	BU5	-	Tidak ada pengembalian biaya yang sudah dibayarkan jika peserta melakukan pembatalan test		ENGLISH	ADMIN	ADMIN		2019-12-16 12:43:00	2019-12-20 15:48:24	TOEFL
+TUME	TUMBLER E-DUCATE	LK	TUME/	OPTIONAL			ADMIN			2020-03-11 14:50:50	0000-00-00 00:00:00	CSWC
+WD	WEB DESIGN	LK	CSC/	Pertemuan akan dianggap hangus jika murid tidak hadir dikelas tanpa pemberitahuan dan alasan yang jelas	pembayaran dilakukan per 1 paket (16 pertemuan)		ADMIN	ADMIN		2020-03-11 09:11:17	2020-03-11 09:15:06	CSWC
+WP	WEB PROGRAMMING	LK	WP	Pertemuan akan dianggap hangus jika murid tidak hadir di kelas tanpa pemberitahuan dan alasan yang jelas	pembayaran di lakukan per 1 paket (16 pertemuan)		ADMIN			2020-03-11 09:18:38	0000-00-00 00:00:00	CSWC
+YLC	Young Learner Class	BU1	YLC	Pembayaran Bisa dilakukan 2 tahap (per 10 Meeting) dan jika peserta batal mengikuti test, maka tidak ada pengembalian biaya	Masing-masing dikurangi 2 meeting untuk Pretest dan Posttest (Simulation Test)	ENGLISH	ADMIN	ADMIN		2019-08-09 10:38:10	2019-12-20 15:55:26	LG
