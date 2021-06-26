@@ -1,0 +1,6 @@
+untuk tipe soal (banyak soal 1 jawaban), pas input ot answer isi multiple_question_id sesuai banyak soal dan
+isi typenya dengan 1 jawaban banyak soal
+
+============ tampilan student ===============
+per question input answer bukan per structure
+

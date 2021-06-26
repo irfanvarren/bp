@@ -1,0 +1,71 @@
+@extends('layouts.app-auth', ['activePage' => 'Job Vacancy','activeMenu' => 'data-management', 'titlePage' => __('Job Vacancy')])
+
+@section('content')
+<div class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <form method="post" action="{{ route('admin.job-vacancy.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data">
+          @csrf
+          @method('post')
+
+          <div class="card ">
+            <div class="card-header card-header-primary">
+              <h4 class="card-title">{{ __('Add Job Vacancy') }}</h4>
+              <p class="card-category"></p>
+            </div>
+            <div class="card-body ">
+              <div class="row">
+                <div class="col-md-12 text-right">
+                  <a href="{{ route('admin.job-vacancy.index') }}" class="btn btn-sm btn-primary">{{ __('Back to list') }}</a>
+                </div>
+              </div>
+               <div class="row">
+                <label class="col-sm-2 col-form-label">{{ __('Category') }}</label>
+                <div class="col-sm-7">
+                  <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
+                   <select required class="form-control" name="category_id" id="category_id">
+                     <option value=""> - Select Category - </option>
+                     @foreach($categories as $category)
+                     <option value="{{$category->id}}">{{$category->name}}</option>
+                     @endforeach
+                   </select>
+                    @if ($errors->has('name'))
+                    <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
+                    @endif
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-2 col-form-label">{{ __('Name') }}</label>
+                <div class="col-sm-7">
+                  <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
+                    <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Name') }}" value="{{ old('name') }}" required="true" aria-required="true"/>
+                    @if ($errors->has('name'))
+                    <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
+                    @endif
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-2 col-form-label">{{ __('Image') }}</label>
+                <div class="col-sm-7">
+                  <div class="{{ $errors->has('image') ? ' has-danger' : '' }}">
+                   <input type="file" name="file_image" class="">
+                    @if ($errors->has('image'))
+                    <span id="image-error" class="error text-danger" for="input-image">{{ $errors->first('image') }}</span>
+                    @endif
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ml-auto mr-auto">
+              <button type="submit" class="btn btn-primary">{{ __('Add Category') }}</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+@endsection

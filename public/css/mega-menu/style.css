@@ -1,0 +1,316 @@
+/* 
+- Name: megamenu.js - style.css
+- Version: 1.0
+- Latest update: 29.01.2016.
+- Author: Mario Loncarek
+- Author web site: http://marioloncarek.com
+*/
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Body - not related to megamenu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.menu-container {
+    width: 80%;
+    margin: 0 auto;
+    background: #e9e9e9;
+}
+.menu-mobile-wrapper{
+    display: none;
+}
+.menu-mobile-wrapper .nav-link{
+    display: inline;
+    padding:0.5rem 0.7rem;
+}
+.menu-mobile-wrapper #cart-count{
+    right:3px;
+}
+.menu-mobile {
+    display: none;
+    color:black;
+}
+
+.menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+}
+
+.menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 1em 2em;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu > ul {
+    margin: 0 auto;
+    /*width: 100%;*/
+    list-style: none;
+    padding: 10px 0;
+    /* position:relative; */
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+    float:right;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    display: block;
+}
+
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul:after {
+    clear: both;
+}
+
+.menu > ul > li {
+    display: inline;
+    float: none;
+    /*background: #e9e9e9;*/
+    padding: 10px 5px;
+    margin: 0;
+    line-height: 45px;
+    text-align: left;
+    
+}
+
+.menu > ul > li > a,.menu > ul > li > .no-url{
+    text-decoration: none;
+    /*padding: 1.5em 3em;*/
+    padding: 10px 1.5em;
+    font-size: 16px;
+    display: inline;
+    line-height: 45px;
+}
+
+
+
+
+.menu > ul > li:hover > a,.menu > ul > li:hover > span.no-url{
+    /*background: #f0f0f0;*/
+    color:#2e5ba3;
+}
+
+.menu > ul > li > ul {
+    display: none;
+    width: 95vw;
+    max-height: 90vh;
+    overflow: auto;
+    /*background: #f0f0f0;*/
+    background: white;
+    box-shadow: 3px 3px 5px #888;
+    /*padding: 20px;*/
+    flex-wrap: wrap;
+    padding:15px;
+    position: absolute;
+    z-index: 999999;
+    left: 0;
+    border-radius: 10px;
+    /*translate -50%*/
+    margin:-5px 0 0 -17.5%;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 25%;
+    background: none;
+    float: right;
+}
+
+
+.menu > ul > li > ul > li a {
+    color: black;
+    /*padding: .2em 0;*/
+    padding: 5px 15px;
+    width: 95%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu > ul > li > ul > li a:hover{
+    color:#2e5ba3;
+    text-decoration: underline;
+}
+
+.menu > ul > li > ul > li span.no-url{
+    display: block;
+    color: black;
+    width: 95%;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu > ul > li > ul > li > ul {
+    display: block;
+    width: 95%;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    box-sizing: border-box;
+    max-height:450px;
+    overflow-y: auto;
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+.menu > ul > li > ul > li > ul > li a {
+    border: 0;
+}
+
+.menu > ul > li > ul > li > ul > li > a:hover{
+    color:#2e5ba3;
+}
+
+.menu > ul > li > ul.normal-sub {
+    width: auto;
+    /*left: auto;*/
+    /* padding: 10px 20px;*/
+    padding: 5px 15px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    /*padding: 1em 0;*/
+    padding: 5px 15px;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 1180px) {
+    .menu-container {
+        width: 100%;
+    }
+    .menu-mobile-wrapper{
+        display: block;
+    }
+    .menu-mobile {
+        display: block;
+        z-index: 999;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+
+    .menu > ul {
+        display: none;
+        position: fixed;left:0;
+        background:white;
+        z-index: 900;
+        width: 100%;
+    }
+    .menu > ul > li {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    .menu > ul > li a {
+        padding: 1em 1.5em;
+        width: 100%;
+        display: block;
+    }
+    .menu > ul > li > ul {
+        position: relative;
+        margin:0;
+        transform:none;
+        left:auto;
+        margin: 0 2.5%;
+        max-height: none;
+    }
+    .menu > ul > li > ul.normal-sub {
+        width: 95%;
+    }
+    .menu > ul > li > ul > li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+        margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+        position: relative;
+        max-height: none;
+    }
+    .menu > ul > li > ul > li > ul > li {
+        float: none;
+    }
+
+
+    .menu .show-on-mobile {
+        display: block;
+        float:none !important;
+        height: 91.6%;
+        margin-top:65px;
+        overflow-y:auto;
+        top: 0;
+    }
+
+
+    .cart-nav,.user-nav{
+        display: none !important;
+    }
+}
