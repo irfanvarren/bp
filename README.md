@@ -2,7 +2,7 @@
 
 Didirikan pada tahun 2016, Best Partner Education adalah salah satu Konsultan Pendidikan Luar Negeri terbaik di Indonesia yang mewakili lebih dari 120 universitas dan perguruan tinggi di 12 negara. Dalam beberapa tahun terakhir, kami telah mengirim lebih dari 300 siswa ke berbagai lembaga di seluruh dunia.
 
-Berikut adalah website best partner education yang dibuat menggunakan Laravel, Vue js (partial) dan databas MySQL. Adapun beberapa aplikasi yang terdapat pada website ini antara lain :
+Berikut adalah website best partner education yang dibuat menggunakan Laravel, Vue js (halaman tertentu) dan database MySQL. Adapun beberapa aplikasi yang terdapat pada website ini antara lain :
 
 ### Website utama  
 ![image](https://github.com/irfanvarren/bp/assets/48541830/b5874e08-0c14-4da9-909c-15c014a912a2)  
